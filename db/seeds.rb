@@ -29,8 +29,8 @@ Product.create(:title => 'Web Design for Developers',
         and work through a web site redesign, taking a new design from concept
         all the way to implementation.
       </p>},
-  :image_url =>   asset_path('images/rails.png'),    
-  :price => 42.95)
+  :image_url =>   asset_path('/assets/rails.png'),    
+  :price => 42)
 # . . .
 Product.create(:title => 'Programming Ruby 1.9',
   :description =>
@@ -39,8 +39,8 @@ Product.create(:title => 'Programming Ruby 1.9',
         out there. If you need to get working programs delivered fast,
         you should add Ruby to your toolbox.
       </p>},
-  :image_url => '/ruby.jpg',
-  :price => 49.50)
+  :image_url => '/assets/ruby.jpg',
+  :price => 49)
 # . . .
 
 Product.create(:title => 'Rails Test Prescriptions',
@@ -53,5 +53,5 @@ Product.create(:title => 'Rails Test Prescriptions',
         procedures for Rails 2 and Rails 3, and introduces popular add-ons,
         including Cucumber, Shoulda, Machinist, Mocha, and Rcov.
       </p>},
-  :image_url => '/images/rtp.jpg',
-  :price => 43.75)
+  :image_url => '/assets/rtp.jpg',
+  :price => 43)

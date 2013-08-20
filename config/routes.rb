@@ -3,7 +3,7 @@ Depot::Application.routes.draw do
   resources :carts
   resources :products
 
-  get "store/index"
+  get "store/index", :as => :store
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

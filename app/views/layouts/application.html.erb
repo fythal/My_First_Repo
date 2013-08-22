@@ -7,7 +7,10 @@
 	<%= csrf_meta_tag %>
 </head>
 <body class="<%= controller.controller_name %>">
+	<p class="alert"><%= alert %></p>
 	<div id="banner">
+		<%=link_to 'Регистрация', new_user_registration_path %>
+		<%=link_to 'Войти', new_user_session_path%>
 		<%= image_tag("logo.png") %>
 		<%= @page_title || "Pragmatic Bookshelf" %>
 	</div>

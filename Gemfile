@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 1.2'
 #for used effect: Yellow Fade Technique
 gem 'jquery-ui-rails'
 
+gem 'devise'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
